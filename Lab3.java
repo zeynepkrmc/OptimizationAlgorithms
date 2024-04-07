@@ -19,9 +19,10 @@ public class Lab1 {
 			if(Fitness(n) < Fitness(x))
 			{
 				x=n;
+		System.out.println("Iteration: " + t + " Fitness Value: " + Fitness(x));
 		    }
 		t++;
-		System.out.println("Iteration: " + t + " Fitness Value: " + Fitness(x));
+		
 		}
 		
 		
